@@ -61,10 +61,15 @@ API Usage
 The app fetches data from TheMealDB API using the following endpoints:
 
 https://www.themealdb.com/api/json/v1/1/search.php?s=  : For default list in Homepage 
+
 https://www.themealdb.com/api/json/v1/1/filter.php?c=${selectedCategory}  : For filtering selected category fetch 
+
 https://www.themealdb.com/api/json/v1/1/search.php?s=${searchInput}   : Search recipes by name/keyword.
+
 https://www.themealdb.com/api/json/v1/1/filter.php?c={category}: Filter recipes by category.
+
 https://www.themealdb.com/api/json/v1/1/lookup.php?i={id}: Fetch detailed recipe by ID.
+
 https://www.themealdb.com/api/json/v1/1/categories.php: Fetch available categories.
 
 Notes
