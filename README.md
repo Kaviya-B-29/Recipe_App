@@ -53,15 +53,13 @@ public/:Contains static assets.
 src/:  -- Source code for the React application.
 
   -- components/:
-  
       - MealsList.jsx: Component for displaying recipe cards.
-      
       - NavBar.jsx: Navigation bar with search and filter functionality.
   -- context/:
 
       - FavoriteContext.jsx: Context for managing favorite recipes.
   -- Pages/:
-  
+
       - Favorites.jsx: Page for viewing favorite recipes.
       
       - HomePage.jsx: Main page with recipe list and navbar.
