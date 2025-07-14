@@ -39,7 +39,7 @@ const navigate = useNavigate();
         <select
           value={selectedCategory}
           onChange={(e) => setSelectedCategory(e.target.value)}
-         className="px-4 py-2 rounded-lg border border-gray-300 bg-white text-black dark:bg-gray-800 dark:text-white">
+         className="px-4 py-2 rounded-lg border border-gray-300 bg-white text-black">
           <option value=""> Filter by Category </option>
         {categories.map((cat) => (
           <option key={cat.strCategory} value={cat.strCategory}>
