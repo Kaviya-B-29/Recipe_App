@@ -19,40 +19,63 @@ Features
 Tech Stack
 ----------
 React JS: Frontend framework for building the user interface and managing state.
+
 TailwindCSS: Utility-first CSS framework for responsive and modern styling.
+
 Axios: For making HTTP requests to TheMealDB API.
+
 React Router: For client-side routing and navigation.
+
 LocalStorage: For persisting favorite recipes across sessions.
+
 TheMealDB API: Public API for fetching recipe data.
 
 How to Use ?
 ------------
 Browse Recipes: On the homepage, view a list of recipes fetched from TheMealDB API.
+
 Search Recipes: Use the search bar in the navigation bar to find recipes by name or keyword.
+
 Filter by Category: Select a category from the dropdown to filter recipes.
+
 View Recipe Details: Click on a recipe card to see full details, including ingredients, instructions, and a YouTube link.
+
 Manage Favorites: Click the heart icon on a recipe card or detail page to add/remove it from favorites. View all favorites on the /favorites page.
+
 Navigate: Use the navigation bar to access the Favorites page or return to the homepage. The "Back" button on detail and favorites pages navigates to the previous page.
 
 Project Structure
 ------------------
 public/:Contains static assets.
+
   --assets/: Static assets like background images and logo.
+  
 src/:  -- Source code for the React application.
+
   -- components/:
+  
       - MealsList.jsx: Component for displaying recipe cards.
+      
       - NavBar.jsx: Navigation bar with search and filter functionality.
   -- context/:
+
       - FavoriteContext.jsx: Context for managing favorite recipes.
   -- Pages/:
+  
       - Favorites.jsx: Page for viewing favorite recipes.
+      
       - HomePage.jsx: Main page with recipe list and navbar.
+      
       - RecipeDetails.jsx: Page for detailed recipe view.
       
 App.jsx: Main app component with routing configuration.
+
 index.css: TailwindCSS and custom styles.
+
 main.jsx: Entry point for the React application.
+
 index.html: Main HTML file for the app.
+
 README.md: Project documentation.
 
 
@@ -76,5 +99,7 @@ Notes
 ------
 
 Favorites Persistence: Favorites are stored in the browser's localStorage, ensuring they persist across sessions.
+
 Error Handling: The app includes basic error handling for API requests, displaying a loading state or message if data is unavailable.
+
 Responsive Design: TailwindCSS ensures the app is fully responsive across devices, with optimized layouts for mobile, tablet, and desktop.
