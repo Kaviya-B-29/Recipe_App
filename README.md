@@ -47,24 +47,27 @@ Navigate: Use the navigation bar to access the Favorites page or return to the h
 Project Structure
 ------------------
 public/:Contains static assets.
-
-  --assets/: Static assets like background images and logo.
+|
+|----assets/: Static assets like background images and logo.
   
 src/:  -- Source code for the React application.
-
-  -- components/:
-      - MealsList.jsx: Component for displaying recipe cards.
-      - NavBar.jsx: Navigation bar with search and filter functionality.
-  -- context/:
-
-      - FavoriteContext.jsx: Context for managing favorite recipes.
-  -- Pages/:
-
-      - Favorites.jsx: Page for viewing favorite recipes.
-      
-      - HomePage.jsx: Main page with recipe list and navbar.
-      
-      - RecipeDetails.jsx: Page for detailed recipe view.
+|
+|--components/:
+|  |
+|  |-- MealsList.jsx: Component for displaying recipe cards.
+|  |    
+|  |-- NavBar.jsx: Navigation bar with search and filter functionality.
+|--context/:
+|  |
+|  |-- FavoriteContext.jsx: Context for managing favorite recipes.
+|
+|--Pages/:
+|  |
+|  |-- Favorites.jsx: Page for viewing favorite recipes.
+|  |   
+|  |-- HomePage.jsx: Main page with recipe list and navbar.
+|  |   
+|  |-- RecipeDetails.jsx: Page for detailed recipe view.
       
 App.jsx: Main app component with routing configuration.
 
