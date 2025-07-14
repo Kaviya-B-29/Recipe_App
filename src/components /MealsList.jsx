@@ -48,7 +48,7 @@ const MealsList = ({ meals, navigate}) =>
                     onClick={(e) => {
                       e.preventDefault();
                      // e.stopPropagation();
-                      HandleFavorites(meal);
+                      handleFavorites(meal);
                     }}
                     className="px-4 py-2 rounded-lg bg-red-100 text-red-600 border border-red-300 font-semibold shadow hover:bg-red-200 transition-all duration-200"
                   >
