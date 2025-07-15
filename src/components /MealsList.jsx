@@ -16,7 +16,7 @@ const MealsList = ({ meals, navigate}) =>
       }
 
   return (
-    <div className="mx-auto p-4 bg-[url(/assets/bg5.png)]">
+    <div className="mx-auto p-4 bg-[url(/assets/bg17.png)]">
     <div className="grid grid-cols-1">
         
     {meals.map((meal) => {
